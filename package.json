@@ -1,0 +1,30 @@
+{
+  "name": "express-middleware-seo",
+  "version": "1.0.2",
+  "description": "express middleware for serving prerendered javascript-rendered pages for SEO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node example/app.js",
+    "test": "mocha -r intelli-espower-loader -t 20000 test"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "keywords": [
+    "SEO",
+    "express SEO",
+    "single page",
+    "single page SEO"
+  ],
+  "author": "Binaryify",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-render": "^1.0.2"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
+  }
+}
