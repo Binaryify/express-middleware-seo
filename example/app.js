@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const { seoMiddleware } = require('express-middleware-seo')
+const { seoMiddleware } = require('../app')
 
 app.use(
   seoMiddleware({

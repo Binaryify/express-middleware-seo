@@ -73,17 +73,23 @@ function chromeRenderMiddleware(
              *      script: inject script to evaluate when page on load,
              * }
              */
-      const result = await chromeRender.render(
-        Object.assign(
-          {
-            url: fullURL,
-            headers,
-            cookies
-          },
-          chromeRenderOptions
+
+      try {
+        const result = await chromeRender.render(
+          Object.assign(
+            {
+              url: fullURL,
+              headers,
+              cookies
+            },
+            chromeRenderOptions
+          )
         )
-      )
-      res.send(result)
+        res.send(result)
+      } catch (err) {
+        console.log('No Chrome environment, please install Chrome 59+!')
+        next()
+      }
     } else {
       next()
     }
