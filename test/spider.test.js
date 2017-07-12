@@ -9,12 +9,12 @@ describe('Simulation of crawler', () => {
       })
       .then(function(response) {
         const $ = cheerio.load(response.data)
-        console.log()
         assert($('h1').text() == 'Im ready now')
         done()
       })
       .catch(function(error) {
         console.log(error)
+        done()
       })
   })
   it('Simulation of Baidu, response HTML should include "Im ready now"', done => {
@@ -24,12 +24,12 @@ describe('Simulation of crawler', () => {
       })
       .then(function(response) {
         const $ = cheerio.load(response.data)
-        console.log()
         assert($('h1').text() == 'Im ready now')
         done()
       })
       .catch(function(error) {
         console.log(error)
+        done()
       })
   })
   it('Response HTML should include "You are not a crawler, I will be ready after 1S"', done => {
@@ -44,6 +44,7 @@ describe('Simulation of crawler', () => {
       })
       .catch(function(error) {
         console.log(error)
+        done()
       })
   })
 })
