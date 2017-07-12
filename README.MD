@@ -40,6 +40,9 @@ app.listen(3000)
 ```
 you can download and run this [complete demo](./example)
 
+## Notice
+You should install Chrome 59+ in your servers before you use this middleware
+
 ## Options
 options come form [chrome-render](https://github.com/gwuhaolin/chrome-render#chromerendernew-method-support-options)
 - `maxTab`: `number` max tab chrome will open to render pages, default is no limit, `maxTab` used to avoid open to many tab lead to chrome crash. `ChromeRender` will create a tab poll to reuse tab for performance improve and resource reduce as open and close tab in chrome require time, like database connection poll. 
