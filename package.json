@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node example/app.js",
-    "test": "mocha -r intelli-espower-loader -t 20000 test"
+    "test": "mocha -r intelli-espower-loader -t 30000 test"
   },
   "engines": {
     "node": "8.1.x"
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2",
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^3.4.2",
     "power-assert": "^1.4.4"
