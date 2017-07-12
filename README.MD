@@ -4,7 +4,7 @@
 [![travis-ci](https://api.travis-ci.org/Binaryify/express-middleware-seo.svg?branch=master)](https://travis-ci.org/Binaryify/express-middleware-seo#)
 
 # express-middleware-seo
-SEO middleware for express base on [chrome-render](https://github.com/binaryify/chrome-render), a substitute for [prerender](https://prerender.io).
+SEO middleware for express base on [chrome-render](https://github.com/gwuhaolin/chrome-render), a substitute for [prerender](https://prerender.io).
 
 Modern web app use technique like react.js vue.js which render html in browser, this lead to search engine can't crawl your page content.
 
@@ -51,7 +51,7 @@ options come form [chrome-render](https://github.com/gwuhaolin/chrome-render#chr
 - `script`: `string` is an option param. inject script source to evaluate when page on load
 
 ## Friends
-- [chrome-render](https://github.com/binaryify/chrome-render) general server render base on chrome.
-- [chrome-pool](https://github.com/binaryify/chrome-pool) Headless chrome tabs manage pool.
+- [chrome-render](https://github.com/gwuhaolin/chrome-render) general server render base on chrome.
+- [chrome-pool](https://github.com/gwuhaolin/chrome-pool) Headless chrome tabs manage pool.
 - [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render) chrome-render middleware for koa
 - [koa-seo](https://github.com/gwuhaolin/koa-seo) koa SEO middleware
