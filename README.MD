@@ -1,6 +1,7 @@
 [![Npm Package](https://img.shields.io/npm/v/express-middleware-seo.svg?style=flat-square)](https://www.npmjs.com/package/express-middleware-seo)
 [![Npm Downloads](http://img.shields.io/npm/dm/express-middleware-seo.svg?style=flat-square)](https://www.npmjs.com/package/express-middleware-seo)
 [![Dependency Status](https://david-dm.org/binaryify/express-middleware-seo.svg?style=flat-square)](https://npmjs.org/package/express-middleware-seo)
+[![travis-ci](https://api.travis-ci.org/Binaryify/express-middleware-seo.svg?branch=master)](https://travis-ci.org/Binaryify/express-middleware-seo#)
 
 # express-middleware-seo
 SEO middleware for express base on [chrome-render](https://github.com/binaryify/chrome-render), a substitute for [prerender](https://prerender.io).
