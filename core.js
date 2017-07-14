@@ -87,6 +87,7 @@ function chromeRenderMiddleware(
         )
         res.send(result)
       } catch (err) {
+        console.log(err)
         console.log('No Chrome environment, please install Chrome 59+!')
         next()
       }

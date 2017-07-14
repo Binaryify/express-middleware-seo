@@ -24,8 +24,10 @@
   "devDependencies": {
     "axios": "^0.16.2",
     "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^3.4.2",
-    "power-assert": "^1.4.4"
+    "power-assert": "^1.4.4",
+    "supertest": "^3.0.0"
   }
 }
