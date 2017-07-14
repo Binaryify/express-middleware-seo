@@ -19,7 +19,7 @@ app.use(express.static(__dirname + '/static'))
 
 describe('Simulation of crawler', () => {
   it('Simulation of Baidu, response HTML should include "Im ready now"', done => {
-    sleep(2000).then(() => {
+    sleep(3000).then(() => {
       request(app).get('/').set('User-Agent', 'baiduspider').end((err, res) => {
         const $ = cheerio.load(res.text)
         assert($('h1').text() == 'Im ready now')
