@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-seo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "express middleware for serving prerendered javascript-rendered pages for SEO",
   "main": "app.js",
   "scripts": {
